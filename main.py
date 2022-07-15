@@ -82,9 +82,7 @@ for n in range(len(links_list)):
     submit_button = driver.find_element(By.XPATH, '//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div[1]/div')
     submit_button.click()
     i += 1
-
-    for _ in range(5):
-        time.sleep(1)
+    
 
 print(i)
 
